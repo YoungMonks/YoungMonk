@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7CB122F1ECD6C1F00AD52B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB122E1ECD6C1F00AD52B6 /* main.m */; };
+		B7CB12321ECD6C1F00AD52B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12311ECD6C1F00AD52B6 /* AppDelegate.m */; };
+		B7CB12351ECD6C1F00AD52B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12341ECD6C1F00AD52B6 /* ViewController.m */; };
+		B7CB12381ECD6C1F00AD52B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7CB12361ECD6C1F00AD52B6 /* Main.storyboard */; };
+		B7CB123A1ECD6C1F00AD52B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7CB12391ECD6C1F00AD52B6 /* Assets.xcassets */; };
+		B7CB123D1ECD6C1F00AD52B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7CB123B1ECD6C1F00AD52B6 /* LaunchScreen.storyboard */; };
+		B7CB12481ECD6C1F00AD52B6 /* YoungMonkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12471ECD6C1F00AD52B6 /* YoungMonkTests.m */; };
+		B7CB12531ECD6C1F00AD52B6 /* YoungMonkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12521ECD6C1F00AD52B6 /* YoungMonkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7CB12441ECD6C1F00AD52B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7CB12221ECD6C1F00AD52B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7CB12291ECD6C1F00AD52B6;
+			remoteInfo = YoungMonk;
+		};
+		B7CB124F1ECD6C1F00AD52B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7CB12221ECD6C1F00AD52B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7CB12291ECD6C1F00AD52B6;
+			remoteInfo = YoungMonk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7CB122A1ECD6C1F00AD52B6 /* YoungMonk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoungMonk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CB122E1ECD6C1F00AD52B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7CB12301ECD6C1F00AD52B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7CB12311ECD6C1F00AD52B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7CB12331ECD6C1F00AD52B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7CB12341ECD6C1F00AD52B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7CB12371ECD6C1F00AD52B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7CB12391ECD6C1F00AD52B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7CB123C1ECD6C1F00AD52B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7CB123E1ECD6C1F00AD52B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7CB12431ECD6C1F00AD52B6 /* YoungMonkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoungMonkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CB12471ECD6C1F00AD52B6 /* YoungMonkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoungMonkTests.m; sourceTree = "<group>"; };
+		B7CB12491ECD6C1F00AD52B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7CB124E1ECD6C1F00AD52B6 /* YoungMonkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoungMonkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CB12521ECD6C1F00AD52B6 /* YoungMonkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoungMonkUITests.m; sourceTree = "<group>"; };
+		B7CB12541ECD6C1F00AD52B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7CB12271ECD6C1F00AD52B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CB12401ECD6C1F00AD52B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CB124B1ECD6C1F00AD52B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7CB12211ECD6C1F00AD52B6 = {
+			isa = PBXGroup;
+			children = (
+				B7CB122C1ECD6C1F00AD52B6 /* YoungMonk */,
+				B7CB12461ECD6C1F00AD52B6 /* YoungMonkTests */,
+				B7CB12511ECD6C1F00AD52B6 /* YoungMonkUITests */,
+				B7CB122B1ECD6C1F00AD52B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7CB122B1ECD6C1F00AD52B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7CB122A1ECD6C1F00AD52B6 /* YoungMonk.app */,
+				B7CB12431ECD6C1F00AD52B6 /* YoungMonkTests.xctest */,
+				B7CB124E1ECD6C1F00AD52B6 /* YoungMonkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7CB122C1ECD6C1F00AD52B6 /* YoungMonk */ = {
+			isa = PBXGroup;
+			children = (
+				B7CB12301ECD6C1F00AD52B6 /* AppDelegate.h */,
+				B7CB12311ECD6C1F00AD52B6 /* AppDelegate.m */,
+				B7CB12331ECD6C1F00AD52B6 /* ViewController.h */,
+				B7CB12341ECD6C1F00AD52B6 /* ViewController.m */,
+				B7CB12361ECD6C1F00AD52B6 /* Main.storyboard */,
+				B7CB12391ECD6C1F00AD52B6 /* Assets.xcassets */,
+				B7CB123B1ECD6C1F00AD52B6 /* LaunchScreen.storyboard */,
+				B7CB123E1ECD6C1F00AD52B6 /* Info.plist */,
+				B7CB122D1ECD6C1F00AD52B6 /* Supporting Files */,
+			);
+			path = YoungMonk;
+			sourceTree = "<group>";
+		};
+		B7CB122D1ECD6C1F00AD52B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7CB122E1ECD6C1F00AD52B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7CB12461ECD6C1F00AD52B6 /* YoungMonkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7CB12471ECD6C1F00AD52B6 /* YoungMonkTests.m */,
+				B7CB12491ECD6C1F00AD52B6 /* Info.plist */,
+			);
+			path = YoungMonkTests;
+			sourceTree = "<group>";
+		};
+		B7CB12511ECD6C1F00AD52B6 /* YoungMonkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7CB12521ECD6C1F00AD52B6 /* YoungMonkUITests.m */,
+				B7CB12541ECD6C1F00AD52B6 /* Info.plist */,
+			);
+			path = YoungMonkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7CB12291ECD6C1F00AD52B6 /* YoungMonk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CB12571ECD6C1F00AD52B6 /* Build configuration list for PBXNativeTarget "YoungMonk" */;
+			buildPhases = (
+				B7CB12261ECD6C1F00AD52B6 /* Sources */,
+				B7CB12271ECD6C1F00AD52B6 /* Frameworks */,
+				B7CB12281ECD6C1F00AD52B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoungMonk;
+			productName = YoungMonk;
+			productReference = B7CB122A1ECD6C1F00AD52B6 /* YoungMonk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7CB12421ECD6C1F00AD52B6 /* YoungMonkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CB125A1ECD6C1F00AD52B6 /* Build configuration list for PBXNativeTarget "YoungMonkTests" */;
+			buildPhases = (
+				B7CB123F1ECD6C1F00AD52B6 /* Sources */,
+				B7CB12401ECD6C1F00AD52B6 /* Frameworks */,
+				B7CB12411ECD6C1F00AD52B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7CB12451ECD6C1F00AD52B6 /* PBXTargetDependency */,
+			);
+			name = YoungMonkTests;
+			productName = YoungMonkTests;
+			productReference = B7CB12431ECD6C1F00AD52B6 /* YoungMonkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7CB124D1ECD6C1F00AD52B6 /* YoungMonkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CB125D1ECD6C1F00AD52B6 /* Build configuration list for PBXNativeTarget "YoungMonkUITests" */;
+			buildPhases = (
+				B7CB124A1ECD6C1F00AD52B6 /* Sources */,
+				B7CB124B1ECD6C1F00AD52B6 /* Frameworks */,
+				B7CB124C1ECD6C1F00AD52B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7CB12501ECD6C1F00AD52B6 /* PBXTargetDependency */,
+			);
+			name = YoungMonkUITests;
+			productName = YoungMonkUITests;
+			productReference = B7CB124E1ECD6C1F00AD52B6 /* YoungMonkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7CB12221ECD6C1F00AD52B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "张江威";
+				TargetAttributes = {
+					B7CB12291ECD6C1F00AD52B6 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					B7CB12421ECD6C1F00AD52B6 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7CB12291ECD6C1F00AD52B6;
+					};
+					B7CB124D1ECD6C1F00AD52B6 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7CB12291ECD6C1F00AD52B6;
+					};
+				};
+			};
+			buildConfigurationList = B7CB12251ECD6C1F00AD52B6 /* Build configuration list for PBXProject "YoungMonk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7CB12211ECD6C1F00AD52B6;
+			productRefGroup = B7CB122B1ECD6C1F00AD52B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7CB12291ECD6C1F00AD52B6 /* YoungMonk */,
+				B7CB12421ECD6C1F00AD52B6 /* YoungMonkTests */,
+				B7CB124D1ECD6C1F00AD52B6 /* YoungMonkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7CB12281ECD6C1F00AD52B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CB123D1ECD6C1F00AD52B6 /* LaunchScreen.storyboard in Resources */,
+				B7CB123A1ECD6C1F00AD52B6 /* Assets.xcassets in Resources */,
+				B7CB12381ECD6C1F00AD52B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CB12411ECD6C1F00AD52B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CB124C1ECD6C1F00AD52B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7CB12261ECD6C1F00AD52B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CB12351ECD6C1F00AD52B6 /* ViewController.m in Sources */,
+				B7CB12321ECD6C1F00AD52B6 /* AppDelegate.m in Sources */,
+				B7CB122F1ECD6C1F00AD52B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CB123F1ECD6C1F00AD52B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CB12481ECD6C1F00AD52B6 /* YoungMonkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CB124A1ECD6C1F00AD52B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CB12531ECD6C1F00AD52B6 /* YoungMonkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7CB12451ECD6C1F00AD52B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7CB12291ECD6C1F00AD52B6 /* YoungMonk */;
+			targetProxy = B7CB12441ECD6C1F00AD52B6 /* PBXContainerItemProxy */;
+		};
+		B7CB12501ECD6C1F00AD52B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7CB12291ECD6C1F00AD52B6 /* YoungMonk */;
+			targetProxy = B7CB124F1ECD6C1F00AD52B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7CB12361ECD6C1F00AD52B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CB12371ECD6C1F00AD52B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7CB123B1ECD6C1F00AD52B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CB123C1ECD6C1F00AD52B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7CB12551ECD6C1F00AD52B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7CB12561ECD6C1F00AD52B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7CB12581ECD6C1F00AD52B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoungMonk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JWZhang.YoungMonk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7CB12591ECD6C1F00AD52B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoungMonk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JWZhang.YoungMonk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7CB125B1ECD6C1F00AD52B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YoungMonkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JWZhang.YoungMonkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoungMonk.app/YoungMonk";
+			};
+			name = Debug;
+		};
+		B7CB125C1ECD6C1F00AD52B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YoungMonkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JWZhang.YoungMonkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoungMonk.app/YoungMonk";
+			};
+			name = Release;
+		};
+		B7CB125E1ECD6C1F00AD52B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YoungMonkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JWZhang.YoungMonkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YoungMonk;
+			};
+			name = Debug;
+		};
+		B7CB125F1ECD6C1F00AD52B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YoungMonkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JWZhang.YoungMonkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YoungMonk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7CB12251ECD6C1F00AD52B6 /* Build configuration list for PBXProject "YoungMonk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CB12551ECD6C1F00AD52B6 /* Debug */,
+				B7CB12561ECD6C1F00AD52B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7CB12571ECD6C1F00AD52B6 /* Build configuration list for PBXNativeTarget "YoungMonk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CB12581ECD6C1F00AD52B6 /* Debug */,
+				B7CB12591ECD6C1F00AD52B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7CB125A1ECD6C1F00AD52B6 /* Build configuration list for PBXNativeTarget "YoungMonkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CB125B1ECD6C1F00AD52B6 /* Debug */,
+				B7CB125C1ECD6C1F00AD52B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7CB125D1ECD6C1F00AD52B6 /* Build configuration list for PBXNativeTarget "YoungMonkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CB125E1ECD6C1F00AD52B6 /* Debug */,
+				B7CB125F1ECD6C1F00AD52B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7CB12221ECD6C1F00AD52B6 /* Project object */;
+}

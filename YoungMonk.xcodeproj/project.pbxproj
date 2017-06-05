@@ -7,14 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A619897E4285A240E1B2B495 /* libPods-YoungMonk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC588FBFAED6B20C41B8860 /* libPods-YoungMonk.a */; };
+		B70A96A11EDAC08B001AD0DB /* CTMediator+TRZXLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96401EDAC08B001AD0DB /* CTMediator+TRZXLogin.m */; };
+		B70A96A21EDAC08B001AD0DB /* Target_TRZXLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96421EDAC08B001AD0DB /* Target_TRZXLogin.m */; };
+		B70A96A31EDAC08B001AD0DB /* TRZXCerticationImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96441EDAC08B001AD0DB /* TRZXCerticationImageViewController.m */; };
+		B70A96A41EDAC08B001AD0DB /* TRZXCertificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96461EDAC08B001AD0DB /* TRZXCertificationViewController.m */; };
+		B70A96A51EDAC08B001AD0DB /* TRZXCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96481EDAC08B001AD0DB /* TRZXCityViewController.m */; };
+		B70A96A61EDAC08B001AD0DB /* TRZXExpertsCertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A964A1EDAC08B001AD0DB /* TRZXExpertsCertViewController.m */; };
+		B70A96A71EDAC08B001AD0DB /* TRZXExpertsSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A964C1EDAC08B001AD0DB /* TRZXExpertsSecondViewController.m */; };
+		B70A96A81EDAC08B001AD0DB /* TRZXRZBasicInformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A964E1EDAC08B001AD0DB /* TRZXRZBasicInformationVC.m */; };
+		B70A96A91EDAC08B001AD0DB /* TRZXRZPositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96501EDAC08B001AD0DB /* TRZXRZPositionViewController.m */; };
+		B70A96AA1EDAC08B001AD0DB /* TRZXFirstLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96531EDAC08B001AD0DB /* TRZXFirstLoginViewController.m */; };
+		B70A96AB1EDAC08B001AD0DB /* TRZXFirstLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A96541EDAC08B001AD0DB /* TRZXFirstLoginViewController.xib */; };
+		B70A96AC1EDAC08B001AD0DB /* TRZXLoginsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A96551EDAC08B001AD0DB /* TRZXLoginsViewController.xib */; };
+		B70A96AD1EDAC08B001AD0DB /* TRZXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96571EDAC08B001AD0DB /* TRZXLoginViewController.m */; };
+		B70A96AE1EDAC08B001AD0DB /* TRZXRegisteredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96591EDAC08B001AD0DB /* TRZXRegisteredViewController.m */; };
+		B70A96AF1EDAC08B001AD0DB /* TRZXRegisteredViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A965A1EDAC08B001AD0DB /* TRZXRegisteredViewController.xib */; };
+		B70A96B01EDAC08B001AD0DB /* TRZXRetrievePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A965C1EDAC08B001AD0DB /* TRZXRetrievePasswordViewController.m */; };
+		B70A96B11EDAC08B001AD0DB /* TRZXRetrievePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A965D1EDAC08B001AD0DB /* TRZXRetrievePasswordViewController.xib */; };
+		B70A96B21EDAC08B001AD0DB /* TRZXSetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A965F1EDAC08B001AD0DB /* TRZXSetPasswordViewController.m */; };
+		B70A96B31EDAC08B001AD0DB /* TRZXSetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A96601EDAC08B001AD0DB /* TRZXSetPasswordViewController.xib */; };
+		B70A96B41EDAC08B001AD0DB /* TRZXCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96631EDAC08B001AD0DB /* TRZXCityModel.m */; };
+		B70A96B51EDAC08B001AD0DB /* TRZXLoginLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96651EDAC08B001AD0DB /* TRZXLoginLogic.m */; };
+		B70A96B61EDAC08B001AD0DB /* TRZXLoginUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96671EDAC08B001AD0DB /* TRZXLoginUserDefaults.m */; };
+		B70A96B71EDAC08B001AD0DB /* TRZXPositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96691EDAC08B001AD0DB /* TRZXPositionModel.m */; };
+		B70A96B81EDAC08B001AD0DB /* TRZXRZIformationMode.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A966B1EDAC08B001AD0DB /* TRZXRZIformationMode.m */; };
+		B70A96B91EDAC08B001AD0DB /* AlbumAddBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70A966D1EDAC08B001AD0DB /* AlbumAddBtn@2x.png */; };
+		B70A96BA1EDAC08B001AD0DB /* bianjiG.png in Resources */ = {isa = PBXBuildFile; fileRef = B70A966E1EDAC08B001AD0DB /* bianjiG.png */; };
+		B70A96BB1EDAC08B001AD0DB /* fail-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70A966F1EDAC08B001AD0DB /* fail-icon@3x.png */; };
+		B70A96BC1EDAC08B001AD0DB /* login_001.png in Resources */ = {isa = PBXBuildFile; fileRef = B70A96701EDAC08B001AD0DB /* login_001.png */; };
+		B70A96BD1EDAC08B001AD0DB /* qita.png in Resources */ = {isa = PBXBuildFile; fileRef = B70A96711EDAC08B001AD0DB /* qita.png */; };
+		B70A96BE1EDAC08B001AD0DB /* RZ_001.png in Resources */ = {isa = PBXBuildFile; fileRef = B70A96721EDAC08B001AD0DB /* RZ_001.png */; };
+		B70A96BF1EDAC08B001AD0DB /* tab3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70A96731EDAC08B001AD0DB /* tab3@2x.png */; };
+		B70A96C01EDAC08B001AD0DB /* weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = B70A96741EDAC08B001AD0DB /* weixin.png */; };
+		B70A96C11EDAC08B001AD0DB /* 图1.png in Resources */ = {isa = PBXBuildFile; fileRef = B70A96751EDAC08B001AD0DB /* 图1.png */; };
+		B70A96C21EDAC08B001AD0DB /* 延展@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70A96761EDAC08B001AD0DB /* 延展@2x.png */; };
+		B70A96C31EDAC08B001AD0DB /* 见过.png in Resources */ = {isa = PBXBuildFile; fileRef = B70A96771EDAC08B001AD0DB /* 见过.png */; };
+		B70A96C41EDAC08B001AD0DB /* TRZXNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A967A1EDAC08B001AD0DB /* TRZXNetwork.m */; };
+		B70A96C51EDAC08B001AD0DB /* TRZXNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A967C1EDAC08B001AD0DB /* TRZXNetworkCache.m */; };
+		B70A96C61EDAC08B001AD0DB /* TRZXCerticationChooseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96801EDAC08B001AD0DB /* TRZXCerticationChooseCell.m */; };
+		B70A96C71EDAC08B001AD0DB /* TRZXCerticationChooseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A96811EDAC08B001AD0DB /* TRZXCerticationChooseCell.xib */; };
+		B70A96C81EDAC08B001AD0DB /* TRZXCertificationHeadImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96831EDAC08B001AD0DB /* TRZXCertificationHeadImageCell.m */; };
+		B70A96C91EDAC08B001AD0DB /* TRZXCertificationHeadImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A96841EDAC08B001AD0DB /* TRZXCertificationHeadImageCell.xib */; };
+		B70A96CA1EDAC08B001AD0DB /* TRZXCertificationHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96861EDAC08B001AD0DB /* TRZXCertificationHomeCell.m */; };
+		B70A96CB1EDAC08B001AD0DB /* TRZXCertificationHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A96871EDAC08B001AD0DB /* TRZXCertificationHomeCell.xib */; };
+		B70A96CC1EDAC08B001AD0DB /* TRZXCertificationImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96891EDAC08B001AD0DB /* TRZXCertificationImageCell.m */; };
+		B70A96CD1EDAC08B001AD0DB /* TRZXCertificationImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A968A1EDAC08B001AD0DB /* TRZXCertificationImageCell.xib */; };
+		B70A96CE1EDAC08B001AD0DB /* TRZXCertificationInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A968C1EDAC08B001AD0DB /* TRZXCertificationInformationCell.m */; };
+		B70A96CF1EDAC08B001AD0DB /* TRZXCertificationInformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A968D1EDAC08B001AD0DB /* TRZXCertificationInformationCell.xib */; };
+		B70A96D01EDAC08B001AD0DB /* TRZXCertificationTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A968F1EDAC08B001AD0DB /* TRZXCertificationTopCell.m */; };
+		B70A96D11EDAC08B001AD0DB /* TRZXCertificationTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A96901EDAC08B001AD0DB /* TRZXCertificationTopCell.xib */; };
+		B70A96D21EDAC08B001AD0DB /* TRZXCertTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96921EDAC08B001AD0DB /* TRZXCertTitleCell.m */; };
+		B70A96D31EDAC08B001AD0DB /* TRZXCertTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A96931EDAC08B001AD0DB /* TRZXCertTitleCell.xib */; };
+		B70A96D41EDAC08B001AD0DB /* TRZXCityTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96951EDAC08B001AD0DB /* TRZXCityTopView.m */; };
+		B70A96D51EDAC08B001AD0DB /* TRZXCityTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A96961EDAC08B001AD0DB /* TRZXCityTopView.xib */; };
+		B70A96D61EDAC08B001AD0DB /* TRZXPushLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96981EDAC08B001AD0DB /* TRZXPushLabelCell.m */; };
+		B70A96D71EDAC08B001AD0DB /* TRZXPushLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A96991EDAC08B001AD0DB /* TRZXPushLabelCell.xib */; };
+		B70A96D81EDAC08B001AD0DB /* TRZXRZBasicInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A969B1EDAC08B001AD0DB /* TRZXRZBasicInformationCell.m */; };
+		B70A96D91EDAC08B001AD0DB /* TRZXRZBasicInformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A969C1EDAC08B001AD0DB /* TRZXRZBasicInformationCell.xib */; };
+		B70A96DA1EDAC08B001AD0DB /* TRZXShareRZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A969E1EDAC08B001AD0DB /* TRZXShareRZTableViewCell.m */; };
+		B70A96DB1EDAC08B001AD0DB /* TRZXShareRZTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70A969F1EDAC08B001AD0DB /* TRZXShareRZTableViewCell.xib */; };
+		B70A96DD1EDAC0E4001AD0DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70A96DC1EDAC0E4001AD0DB /* Main.storyboard */; };
+		B70A96E71EDAC875001AD0DB /* GetUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96E01EDAC875001AD0DB /* GetUUID.m */; };
+		B70A96E81EDAC875001AD0DB /* KeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96E21EDAC875001AD0DB /* KeyChainStore.m */; };
+		B70A96E91EDAC875001AD0DB /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96E41EDAC875001AD0DB /* Login.m */; };
+		B70A96EA1EDAC875001AD0DB /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96E61EDAC875001AD0DB /* User.m */; };
+		B70A96ED1EDACBA5001AD0DB /* UIViewController+APP.m in Sources */ = {isa = PBXBuildFile; fileRef = B70A96EC1EDACBA5001AD0DB /* UIViewController+APP.m */; };
 		B7CB122F1ECD6C1F00AD52B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB122E1ECD6C1F00AD52B6 /* main.m */; };
 		B7CB12321ECD6C1F00AD52B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12311ECD6C1F00AD52B6 /* AppDelegate.m */; };
 		B7CB12351ECD6C1F00AD52B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12341ECD6C1F00AD52B6 /* ViewController.m */; };
-		B7CB12381ECD6C1F00AD52B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7CB12361ECD6C1F00AD52B6 /* Main.storyboard */; };
 		B7CB123A1ECD6C1F00AD52B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7CB12391ECD6C1F00AD52B6 /* Assets.xcassets */; };
 		B7CB123D1ECD6C1F00AD52B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7CB123B1ECD6C1F00AD52B6 /* LaunchScreen.storyboard */; };
 		B7CB12481ECD6C1F00AD52B6 /* YoungMonkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12471ECD6C1F00AD52B6 /* YoungMonkTests.m */; };
 		B7CB12531ECD6C1F00AD52B6 /* YoungMonkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12521ECD6C1F00AD52B6 /* YoungMonkUITests.m */; };
+		B7CB126D1ECD6CA600AD52B6 /* MainTabBar0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12621ECD6CA600AD52B6 /* MainTabBar0ViewController.m */; };
+		B7CB126E1ECD6CA600AD52B6 /* MainTabBar1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12641ECD6CA600AD52B6 /* MainTabBar1ViewController.m */; };
+		B7CB126F1ECD6CA600AD52B6 /* MainTabBar2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12661ECD6CA600AD52B6 /* MainTabBar2ViewController.m */; };
+		B7CB12701ECD6CA600AD52B6 /* MainTabBar3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB12681ECD6CA600AD52B6 /* MainTabBar3ViewController.m */; };
+		B7CB12711ECD6CA600AD52B6 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB126A1ECD6CA600AD52B6 /* MainTabBarController.m */; };
+		B7CB12721ECD6CA600AD52B6 /* TRZXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CB126C1ECD6CA600AD52B6 /* TRZXNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +106,116 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C1AA2092901991D9D01A29E /* Pods-YoungMonk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoungMonk.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoungMonk/Pods-YoungMonk.release.xcconfig"; sourceTree = "<group>"; };
+		5AC588FBFAED6B20C41B8860 /* libPods-YoungMonk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YoungMonk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70A963F1EDAC08B001AD0DB /* CTMediator+TRZXLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TRZXLogin.h"; sourceTree = "<group>"; };
+		B70A96401EDAC08B001AD0DB /* CTMediator+TRZXLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TRZXLogin.m"; sourceTree = "<group>"; };
+		B70A96411EDAC08B001AD0DB /* Target_TRZXLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TRZXLogin.h; sourceTree = "<group>"; };
+		B70A96421EDAC08B001AD0DB /* Target_TRZXLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TRZXLogin.m; sourceTree = "<group>"; };
+		B70A96431EDAC08B001AD0DB /* TRZXCerticationImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCerticationImageViewController.h; sourceTree = "<group>"; };
+		B70A96441EDAC08B001AD0DB /* TRZXCerticationImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCerticationImageViewController.m; sourceTree = "<group>"; };
+		B70A96451EDAC08B001AD0DB /* TRZXCertificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCertificationViewController.h; sourceTree = "<group>"; };
+		B70A96461EDAC08B001AD0DB /* TRZXCertificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCertificationViewController.m; sourceTree = "<group>"; };
+		B70A96471EDAC08B001AD0DB /* TRZXCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCityViewController.h; sourceTree = "<group>"; };
+		B70A96481EDAC08B001AD0DB /* TRZXCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCityViewController.m; sourceTree = "<group>"; };
+		B70A96491EDAC08B001AD0DB /* TRZXExpertsCertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXExpertsCertViewController.h; sourceTree = "<group>"; };
+		B70A964A1EDAC08B001AD0DB /* TRZXExpertsCertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXExpertsCertViewController.m; sourceTree = "<group>"; };
+		B70A964B1EDAC08B001AD0DB /* TRZXExpertsSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXExpertsSecondViewController.h; sourceTree = "<group>"; };
+		B70A964C1EDAC08B001AD0DB /* TRZXExpertsSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXExpertsSecondViewController.m; sourceTree = "<group>"; };
+		B70A964D1EDAC08B001AD0DB /* TRZXRZBasicInformationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXRZBasicInformationVC.h; sourceTree = "<group>"; };
+		B70A964E1EDAC08B001AD0DB /* TRZXRZBasicInformationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXRZBasicInformationVC.m; sourceTree = "<group>"; };
+		B70A964F1EDAC08B001AD0DB /* TRZXRZPositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXRZPositionViewController.h; sourceTree = "<group>"; };
+		B70A96501EDAC08B001AD0DB /* TRZXRZPositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXRZPositionViewController.m; sourceTree = "<group>"; };
+		B70A96521EDAC08B001AD0DB /* TRZXFirstLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXFirstLoginViewController.h; sourceTree = "<group>"; };
+		B70A96531EDAC08B001AD0DB /* TRZXFirstLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXFirstLoginViewController.m; sourceTree = "<group>"; };
+		B70A96541EDAC08B001AD0DB /* TRZXFirstLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXFirstLoginViewController.xib; sourceTree = "<group>"; };
+		B70A96551EDAC08B001AD0DB /* TRZXLoginsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXLoginsViewController.xib; sourceTree = "<group>"; };
+		B70A96561EDAC08B001AD0DB /* TRZXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXLoginViewController.h; sourceTree = "<group>"; };
+		B70A96571EDAC08B001AD0DB /* TRZXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXLoginViewController.m; sourceTree = "<group>"; };
+		B70A96581EDAC08B001AD0DB /* TRZXRegisteredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXRegisteredViewController.h; sourceTree = "<group>"; };
+		B70A96591EDAC08B001AD0DB /* TRZXRegisteredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXRegisteredViewController.m; sourceTree = "<group>"; };
+		B70A965A1EDAC08B001AD0DB /* TRZXRegisteredViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXRegisteredViewController.xib; sourceTree = "<group>"; };
+		B70A965B1EDAC08B001AD0DB /* TRZXRetrievePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXRetrievePasswordViewController.h; sourceTree = "<group>"; };
+		B70A965C1EDAC08B001AD0DB /* TRZXRetrievePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXRetrievePasswordViewController.m; sourceTree = "<group>"; };
+		B70A965D1EDAC08B001AD0DB /* TRZXRetrievePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXRetrievePasswordViewController.xib; sourceTree = "<group>"; };
+		B70A965E1EDAC08B001AD0DB /* TRZXSetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXSetPasswordViewController.h; sourceTree = "<group>"; };
+		B70A965F1EDAC08B001AD0DB /* TRZXSetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXSetPasswordViewController.m; sourceTree = "<group>"; };
+		B70A96601EDAC08B001AD0DB /* TRZXSetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXSetPasswordViewController.xib; sourceTree = "<group>"; };
+		B70A96621EDAC08B001AD0DB /* TRZXCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCityModel.h; sourceTree = "<group>"; };
+		B70A96631EDAC08B001AD0DB /* TRZXCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCityModel.m; sourceTree = "<group>"; };
+		B70A96641EDAC08B001AD0DB /* TRZXLoginLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXLoginLogic.h; sourceTree = "<group>"; };
+		B70A96651EDAC08B001AD0DB /* TRZXLoginLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXLoginLogic.m; sourceTree = "<group>"; };
+		B70A96661EDAC08B001AD0DB /* TRZXLoginUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXLoginUserDefaults.h; sourceTree = "<group>"; };
+		B70A96671EDAC08B001AD0DB /* TRZXLoginUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXLoginUserDefaults.m; sourceTree = "<group>"; };
+		B70A96681EDAC08B001AD0DB /* TRZXPositionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPositionModel.h; sourceTree = "<group>"; };
+		B70A96691EDAC08B001AD0DB /* TRZXPositionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPositionModel.m; sourceTree = "<group>"; };
+		B70A966A1EDAC08B001AD0DB /* TRZXRZIformationMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXRZIformationMode.h; sourceTree = "<group>"; };
+		B70A966B1EDAC08B001AD0DB /* TRZXRZIformationMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXRZIformationMode.m; sourceTree = "<group>"; };
+		B70A966D1EDAC08B001AD0DB /* AlbumAddBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlbumAddBtn@2x.png"; sourceTree = "<group>"; };
+		B70A966E1EDAC08B001AD0DB /* bianjiG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bianjiG.png; sourceTree = "<group>"; };
+		B70A966F1EDAC08B001AD0DB /* fail-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fail-icon@3x.png"; sourceTree = "<group>"; };
+		B70A96701EDAC08B001AD0DB /* login_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_001.png; sourceTree = "<group>"; };
+		B70A96711EDAC08B001AD0DB /* qita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qita.png; sourceTree = "<group>"; };
+		B70A96721EDAC08B001AD0DB /* RZ_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RZ_001.png; sourceTree = "<group>"; };
+		B70A96731EDAC08B001AD0DB /* tab3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab3@2x.png"; sourceTree = "<group>"; };
+		B70A96741EDAC08B001AD0DB /* weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weixin.png; sourceTree = "<group>"; };
+		B70A96751EDAC08B001AD0DB /* 图1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图1.png"; sourceTree = "<group>"; };
+		B70A96761EDAC08B001AD0DB /* 延展@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "延展@2x.png"; sourceTree = "<group>"; };
+		B70A96771EDAC08B001AD0DB /* 见过.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "见过.png"; sourceTree = "<group>"; };
+		B70A96791EDAC08B001AD0DB /* TRZXNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXNetwork.h; sourceTree = "<group>"; };
+		B70A967A1EDAC08B001AD0DB /* TRZXNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXNetwork.m; sourceTree = "<group>"; };
+		B70A967B1EDAC08B001AD0DB /* TRZXNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXNetworkCache.h; sourceTree = "<group>"; };
+		B70A967C1EDAC08B001AD0DB /* TRZXNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXNetworkCache.m; sourceTree = "<group>"; };
+		B70A967F1EDAC08B001AD0DB /* TRZXCerticationChooseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCerticationChooseCell.h; sourceTree = "<group>"; };
+		B70A96801EDAC08B001AD0DB /* TRZXCerticationChooseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCerticationChooseCell.m; sourceTree = "<group>"; };
+		B70A96811EDAC08B001AD0DB /* TRZXCerticationChooseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCerticationChooseCell.xib; sourceTree = "<group>"; };
+		B70A96821EDAC08B001AD0DB /* TRZXCertificationHeadImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCertificationHeadImageCell.h; sourceTree = "<group>"; };
+		B70A96831EDAC08B001AD0DB /* TRZXCertificationHeadImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCertificationHeadImageCell.m; sourceTree = "<group>"; };
+		B70A96841EDAC08B001AD0DB /* TRZXCertificationHeadImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCertificationHeadImageCell.xib; sourceTree = "<group>"; };
+		B70A96851EDAC08B001AD0DB /* TRZXCertificationHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCertificationHomeCell.h; sourceTree = "<group>"; };
+		B70A96861EDAC08B001AD0DB /* TRZXCertificationHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCertificationHomeCell.m; sourceTree = "<group>"; };
+		B70A96871EDAC08B001AD0DB /* TRZXCertificationHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCertificationHomeCell.xib; sourceTree = "<group>"; };
+		B70A96881EDAC08B001AD0DB /* TRZXCertificationImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCertificationImageCell.h; sourceTree = "<group>"; };
+		B70A96891EDAC08B001AD0DB /* TRZXCertificationImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCertificationImageCell.m; sourceTree = "<group>"; };
+		B70A968A1EDAC08B001AD0DB /* TRZXCertificationImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCertificationImageCell.xib; sourceTree = "<group>"; };
+		B70A968B1EDAC08B001AD0DB /* TRZXCertificationInformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCertificationInformationCell.h; sourceTree = "<group>"; };
+		B70A968C1EDAC08B001AD0DB /* TRZXCertificationInformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCertificationInformationCell.m; sourceTree = "<group>"; };
+		B70A968D1EDAC08B001AD0DB /* TRZXCertificationInformationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCertificationInformationCell.xib; sourceTree = "<group>"; };
+		B70A968E1EDAC08B001AD0DB /* TRZXCertificationTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCertificationTopCell.h; sourceTree = "<group>"; };
+		B70A968F1EDAC08B001AD0DB /* TRZXCertificationTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCertificationTopCell.m; sourceTree = "<group>"; };
+		B70A96901EDAC08B001AD0DB /* TRZXCertificationTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCertificationTopCell.xib; sourceTree = "<group>"; };
+		B70A96911EDAC08B001AD0DB /* TRZXCertTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCertTitleCell.h; sourceTree = "<group>"; };
+		B70A96921EDAC08B001AD0DB /* TRZXCertTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCertTitleCell.m; sourceTree = "<group>"; };
+		B70A96931EDAC08B001AD0DB /* TRZXCertTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCertTitleCell.xib; sourceTree = "<group>"; };
+		B70A96941EDAC08B001AD0DB /* TRZXCityTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCityTopView.h; sourceTree = "<group>"; };
+		B70A96951EDAC08B001AD0DB /* TRZXCityTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCityTopView.m; sourceTree = "<group>"; };
+		B70A96961EDAC08B001AD0DB /* TRZXCityTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCityTopView.xib; sourceTree = "<group>"; };
+		B70A96971EDAC08B001AD0DB /* TRZXPushLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXPushLabelCell.h; sourceTree = "<group>"; };
+		B70A96981EDAC08B001AD0DB /* TRZXPushLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXPushLabelCell.m; sourceTree = "<group>"; };
+		B70A96991EDAC08B001AD0DB /* TRZXPushLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXPushLabelCell.xib; sourceTree = "<group>"; };
+		B70A969A1EDAC08B001AD0DB /* TRZXRZBasicInformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXRZBasicInformationCell.h; sourceTree = "<group>"; };
+		B70A969B1EDAC08B001AD0DB /* TRZXRZBasicInformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXRZBasicInformationCell.m; sourceTree = "<group>"; };
+		B70A969C1EDAC08B001AD0DB /* TRZXRZBasicInformationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXRZBasicInformationCell.xib; sourceTree = "<group>"; };
+		B70A969D1EDAC08B001AD0DB /* TRZXShareRZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXShareRZTableViewCell.h; sourceTree = "<group>"; };
+		B70A969E1EDAC08B001AD0DB /* TRZXShareRZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXShareRZTableViewCell.m; sourceTree = "<group>"; };
+		B70A969F1EDAC08B001AD0DB /* TRZXShareRZTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXShareRZTableViewCell.xib; sourceTree = "<group>"; };
+		B70A96DC1EDAC0E4001AD0DB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B70A96DF1EDAC875001AD0DB /* GetUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetUUID.h; sourceTree = "<group>"; };
+		B70A96E01EDAC875001AD0DB /* GetUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetUUID.m; sourceTree = "<group>"; };
+		B70A96E11EDAC875001AD0DB /* KeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainStore.h; sourceTree = "<group>"; };
+		B70A96E21EDAC875001AD0DB /* KeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainStore.m; sourceTree = "<group>"; };
+		B70A96E31EDAC875001AD0DB /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		B70A96E41EDAC875001AD0DB /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		B70A96E51EDAC875001AD0DB /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B70A96E61EDAC875001AD0DB /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		B70A96EB1EDACBA5001AD0DB /* UIViewController+APP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+APP.h"; sourceTree = "<group>"; };
+		B70A96EC1EDACBA5001AD0DB /* UIViewController+APP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APP.m"; sourceTree = "<group>"; };
 		B7CB122A1ECD6C1F00AD52B6 /* YoungMonk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoungMonk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CB122E1ECD6C1F00AD52B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7CB12301ECD6C1F00AD52B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B7CB12311ECD6C1F00AD52B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B7CB12331ECD6C1F00AD52B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B7CB12341ECD6C1F00AD52B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B7CB12371ECD6C1F00AD52B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7CB12391ECD6C1F00AD52B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7CB123C1ECD6C1F00AD52B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7CB123E1ECD6C1F00AD52B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +225,19 @@
 		B7CB124E1ECD6C1F00AD52B6 /* YoungMonkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoungMonkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CB12521ECD6C1F00AD52B6 /* YoungMonkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoungMonkUITests.m; sourceTree = "<group>"; };
 		B7CB12541ECD6C1F00AD52B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7CB12611ECD6CA600AD52B6 /* MainTabBar0ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar0ViewController.h; sourceTree = "<group>"; };
+		B7CB12621ECD6CA600AD52B6 /* MainTabBar0ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar0ViewController.m; sourceTree = "<group>"; };
+		B7CB12631ECD6CA600AD52B6 /* MainTabBar1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar1ViewController.h; sourceTree = "<group>"; };
+		B7CB12641ECD6CA600AD52B6 /* MainTabBar1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar1ViewController.m; sourceTree = "<group>"; };
+		B7CB12651ECD6CA600AD52B6 /* MainTabBar2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar2ViewController.h; sourceTree = "<group>"; };
+		B7CB12661ECD6CA600AD52B6 /* MainTabBar2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar2ViewController.m; sourceTree = "<group>"; };
+		B7CB12671ECD6CA600AD52B6 /* MainTabBar3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar3ViewController.h; sourceTree = "<group>"; };
+		B7CB12681ECD6CA600AD52B6 /* MainTabBar3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar3ViewController.m; sourceTree = "<group>"; };
+		B7CB12691ECD6CA600AD52B6 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		B7CB126A1ECD6CA600AD52B6 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		B7CB126B1ECD6CA600AD52B6 /* TRZXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXNavigationController.h; sourceTree = "<group>"; };
+		B7CB126C1ECD6CA600AD52B6 /* TRZXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXNavigationController.m; sourceTree = "<group>"; };
+		B8FC880CE919E8C418852AFB /* Pods-YoungMonk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoungMonk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoungMonk/Pods-YoungMonk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +245,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A619897E4285A240E1B2B495 /* libPods-YoungMonk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +266,200 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		588AB3757CA737F9AFB076C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AC588FBFAED6B20C41B8860 /* libPods-YoungMonk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B70A963C1EDAC08B001AD0DB /* TRZXLogin */ = {
+			isa = PBXGroup;
+			children = (
+				B70A96DE1EDAC860001AD0DB /* LoginKit */,
+				B70A963D1EDAC08B001AD0DB /* Controllers */,
+				B70A96611EDAC08B001AD0DB /* Models */,
+				B70A966C1EDAC08B001AD0DB /* Resources */,
+				B70A96781EDAC08B001AD0DB /* Services */,
+				B70A967D1EDAC08B001AD0DB /* Views */,
+			);
+			path = TRZXLogin;
+			sourceTree = "<group>";
+		};
+		B70A963D1EDAC08B001AD0DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B70A963E1EDAC08B001AD0DB /* CertificationController */,
+				B70A96511EDAC08B001AD0DB /* LoginController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B70A963E1EDAC08B001AD0DB /* CertificationController */ = {
+			isa = PBXGroup;
+			children = (
+				B70A963F1EDAC08B001AD0DB /* CTMediator+TRZXLogin.h */,
+				B70A96401EDAC08B001AD0DB /* CTMediator+TRZXLogin.m */,
+				B70A96411EDAC08B001AD0DB /* Target_TRZXLogin.h */,
+				B70A96421EDAC08B001AD0DB /* Target_TRZXLogin.m */,
+				B70A96431EDAC08B001AD0DB /* TRZXCerticationImageViewController.h */,
+				B70A96441EDAC08B001AD0DB /* TRZXCerticationImageViewController.m */,
+				B70A96451EDAC08B001AD0DB /* TRZXCertificationViewController.h */,
+				B70A96461EDAC08B001AD0DB /* TRZXCertificationViewController.m */,
+				B70A96471EDAC08B001AD0DB /* TRZXCityViewController.h */,
+				B70A96481EDAC08B001AD0DB /* TRZXCityViewController.m */,
+				B70A96491EDAC08B001AD0DB /* TRZXExpertsCertViewController.h */,
+				B70A964A1EDAC08B001AD0DB /* TRZXExpertsCertViewController.m */,
+				B70A964B1EDAC08B001AD0DB /* TRZXExpertsSecondViewController.h */,
+				B70A964C1EDAC08B001AD0DB /* TRZXExpertsSecondViewController.m */,
+				B70A964D1EDAC08B001AD0DB /* TRZXRZBasicInformationVC.h */,
+				B70A964E1EDAC08B001AD0DB /* TRZXRZBasicInformationVC.m */,
+				B70A964F1EDAC08B001AD0DB /* TRZXRZPositionViewController.h */,
+				B70A96501EDAC08B001AD0DB /* TRZXRZPositionViewController.m */,
+			);
+			path = CertificationController;
+			sourceTree = "<group>";
+		};
+		B70A96511EDAC08B001AD0DB /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				B70A96521EDAC08B001AD0DB /* TRZXFirstLoginViewController.h */,
+				B70A96531EDAC08B001AD0DB /* TRZXFirstLoginViewController.m */,
+				B70A96541EDAC08B001AD0DB /* TRZXFirstLoginViewController.xib */,
+				B70A96551EDAC08B001AD0DB /* TRZXLoginsViewController.xib */,
+				B70A96561EDAC08B001AD0DB /* TRZXLoginViewController.h */,
+				B70A96571EDAC08B001AD0DB /* TRZXLoginViewController.m */,
+				B70A96581EDAC08B001AD0DB /* TRZXRegisteredViewController.h */,
+				B70A96591EDAC08B001AD0DB /* TRZXRegisteredViewController.m */,
+				B70A965A1EDAC08B001AD0DB /* TRZXRegisteredViewController.xib */,
+				B70A965B1EDAC08B001AD0DB /* TRZXRetrievePasswordViewController.h */,
+				B70A965C1EDAC08B001AD0DB /* TRZXRetrievePasswordViewController.m */,
+				B70A965D1EDAC08B001AD0DB /* TRZXRetrievePasswordViewController.xib */,
+				B70A965E1EDAC08B001AD0DB /* TRZXSetPasswordViewController.h */,
+				B70A965F1EDAC08B001AD0DB /* TRZXSetPasswordViewController.m */,
+				B70A96601EDAC08B001AD0DB /* TRZXSetPasswordViewController.xib */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		B70A96611EDAC08B001AD0DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B70A96621EDAC08B001AD0DB /* TRZXCityModel.h */,
+				B70A96631EDAC08B001AD0DB /* TRZXCityModel.m */,
+				B70A96641EDAC08B001AD0DB /* TRZXLoginLogic.h */,
+				B70A96651EDAC08B001AD0DB /* TRZXLoginLogic.m */,
+				B70A96661EDAC08B001AD0DB /* TRZXLoginUserDefaults.h */,
+				B70A96671EDAC08B001AD0DB /* TRZXLoginUserDefaults.m */,
+				B70A96681EDAC08B001AD0DB /* TRZXPositionModel.h */,
+				B70A96691EDAC08B001AD0DB /* TRZXPositionModel.m */,
+				B70A966A1EDAC08B001AD0DB /* TRZXRZIformationMode.h */,
+				B70A966B1EDAC08B001AD0DB /* TRZXRZIformationMode.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B70A966C1EDAC08B001AD0DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B70A966D1EDAC08B001AD0DB /* AlbumAddBtn@2x.png */,
+				B70A966E1EDAC08B001AD0DB /* bianjiG.png */,
+				B70A966F1EDAC08B001AD0DB /* fail-icon@3x.png */,
+				B70A96701EDAC08B001AD0DB /* login_001.png */,
+				B70A96711EDAC08B001AD0DB /* qita.png */,
+				B70A96721EDAC08B001AD0DB /* RZ_001.png */,
+				B70A96731EDAC08B001AD0DB /* tab3@2x.png */,
+				B70A96741EDAC08B001AD0DB /* weixin.png */,
+				B70A96751EDAC08B001AD0DB /* 图1.png */,
+				B70A96761EDAC08B001AD0DB /* 延展@2x.png */,
+				B70A96771EDAC08B001AD0DB /* 见过.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B70A96781EDAC08B001AD0DB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B70A96791EDAC08B001AD0DB /* TRZXNetwork.h */,
+				B70A967A1EDAC08B001AD0DB /* TRZXNetwork.m */,
+				B70A967B1EDAC08B001AD0DB /* TRZXNetworkCache.h */,
+				B70A967C1EDAC08B001AD0DB /* TRZXNetworkCache.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B70A967D1EDAC08B001AD0DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B70A967E1EDAC08B001AD0DB /* CertificationView */,
+				B70A96A01EDAC08B001AD0DB /* LoginView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B70A967E1EDAC08B001AD0DB /* CertificationView */ = {
+			isa = PBXGroup;
+			children = (
+				B70A967F1EDAC08B001AD0DB /* TRZXCerticationChooseCell.h */,
+				B70A96801EDAC08B001AD0DB /* TRZXCerticationChooseCell.m */,
+				B70A96811EDAC08B001AD0DB /* TRZXCerticationChooseCell.xib */,
+				B70A96821EDAC08B001AD0DB /* TRZXCertificationHeadImageCell.h */,
+				B70A96831EDAC08B001AD0DB /* TRZXCertificationHeadImageCell.m */,
+				B70A96841EDAC08B001AD0DB /* TRZXCertificationHeadImageCell.xib */,
+				B70A96851EDAC08B001AD0DB /* TRZXCertificationHomeCell.h */,
+				B70A96861EDAC08B001AD0DB /* TRZXCertificationHomeCell.m */,
+				B70A96871EDAC08B001AD0DB /* TRZXCertificationHomeCell.xib */,
+				B70A96881EDAC08B001AD0DB /* TRZXCertificationImageCell.h */,
+				B70A96891EDAC08B001AD0DB /* TRZXCertificationImageCell.m */,
+				B70A968A1EDAC08B001AD0DB /* TRZXCertificationImageCell.xib */,
+				B70A968B1EDAC08B001AD0DB /* TRZXCertificationInformationCell.h */,
+				B70A968C1EDAC08B001AD0DB /* TRZXCertificationInformationCell.m */,
+				B70A968D1EDAC08B001AD0DB /* TRZXCertificationInformationCell.xib */,
+				B70A968E1EDAC08B001AD0DB /* TRZXCertificationTopCell.h */,
+				B70A968F1EDAC08B001AD0DB /* TRZXCertificationTopCell.m */,
+				B70A96901EDAC08B001AD0DB /* TRZXCertificationTopCell.xib */,
+				B70A96911EDAC08B001AD0DB /* TRZXCertTitleCell.h */,
+				B70A96921EDAC08B001AD0DB /* TRZXCertTitleCell.m */,
+				B70A96931EDAC08B001AD0DB /* TRZXCertTitleCell.xib */,
+				B70A96941EDAC08B001AD0DB /* TRZXCityTopView.h */,
+				B70A96951EDAC08B001AD0DB /* TRZXCityTopView.m */,
+				B70A96961EDAC08B001AD0DB /* TRZXCityTopView.xib */,
+				B70A96971EDAC08B001AD0DB /* TRZXPushLabelCell.h */,
+				B70A96981EDAC08B001AD0DB /* TRZXPushLabelCell.m */,
+				B70A96991EDAC08B001AD0DB /* TRZXPushLabelCell.xib */,
+				B70A969A1EDAC08B001AD0DB /* TRZXRZBasicInformationCell.h */,
+				B70A969B1EDAC08B001AD0DB /* TRZXRZBasicInformationCell.m */,
+				B70A969C1EDAC08B001AD0DB /* TRZXRZBasicInformationCell.xib */,
+				B70A969D1EDAC08B001AD0DB /* TRZXShareRZTableViewCell.h */,
+				B70A969E1EDAC08B001AD0DB /* TRZXShareRZTableViewCell.m */,
+				B70A969F1EDAC08B001AD0DB /* TRZXShareRZTableViewCell.xib */,
+			);
+			path = CertificationView;
+			sourceTree = "<group>";
+		};
+		B70A96A01EDAC08B001AD0DB /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		B70A96DE1EDAC860001AD0DB /* LoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				B70A96DF1EDAC875001AD0DB /* GetUUID.h */,
+				B70A96E01EDAC875001AD0DB /* GetUUID.m */,
+				B70A96E11EDAC875001AD0DB /* KeyChainStore.h */,
+				B70A96E21EDAC875001AD0DB /* KeyChainStore.m */,
+				B70A96E31EDAC875001AD0DB /* Login.h */,
+				B70A96E41EDAC875001AD0DB /* Login.m */,
+				B70A96E51EDAC875001AD0DB /* User.h */,
+				B70A96E61EDAC875001AD0DB /* User.m */,
+			);
+			path = LoginKit;
+			sourceTree = "<group>";
+		};
 		B7CB12211ECD6C1F00AD52B6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +467,8 @@
 				B7CB12461ECD6C1F00AD52B6 /* YoungMonkTests */,
 				B7CB12511ECD6C1F00AD52B6 /* YoungMonkUITests */,
 				B7CB122B1ECD6C1F00AD52B6 /* Products */,
+				D830A65382C64FED6D22A87E /* Pods */,
+				588AB3757CA737F9AFB076C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +485,13 @@
 		B7CB122C1ECD6C1F00AD52B6 /* YoungMonk */ = {
 			isa = PBXGroup;
 			children = (
+				B70A963C1EDAC08B001AD0DB /* TRZXLogin */,
+				B7CB12601ECD6CA600AD52B6 /* TabBar */,
 				B7CB12301ECD6C1F00AD52B6 /* AppDelegate.h */,
 				B7CB12311ECD6C1F00AD52B6 /* AppDelegate.m */,
 				B7CB12331ECD6C1F00AD52B6 /* ViewController.h */,
 				B7CB12341ECD6C1F00AD52B6 /* ViewController.m */,
-				B7CB12361ECD6C1F00AD52B6 /* Main.storyboard */,
+				B70A96DC1EDAC0E4001AD0DB /* Main.storyboard */,
 				B7CB12391ECD6C1F00AD52B6 /* Assets.xcassets */,
 				B7CB123B1ECD6C1F00AD52B6 /* LaunchScreen.storyboard */,
 				B7CB123E1ECD6C1F00AD52B6 /* Info.plist */,
@@ -140,6 +526,36 @@
 			path = YoungMonkUITests;
 			sourceTree = "<group>";
 		};
+		B7CB12601ECD6CA600AD52B6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B70A96EB1EDACBA5001AD0DB /* UIViewController+APP.h */,
+				B70A96EC1EDACBA5001AD0DB /* UIViewController+APP.m */,
+				B7CB12611ECD6CA600AD52B6 /* MainTabBar0ViewController.h */,
+				B7CB12621ECD6CA600AD52B6 /* MainTabBar0ViewController.m */,
+				B7CB12631ECD6CA600AD52B6 /* MainTabBar1ViewController.h */,
+				B7CB12641ECD6CA600AD52B6 /* MainTabBar1ViewController.m */,
+				B7CB12651ECD6CA600AD52B6 /* MainTabBar2ViewController.h */,
+				B7CB12661ECD6CA600AD52B6 /* MainTabBar2ViewController.m */,
+				B7CB12671ECD6CA600AD52B6 /* MainTabBar3ViewController.h */,
+				B7CB12681ECD6CA600AD52B6 /* MainTabBar3ViewController.m */,
+				B7CB12691ECD6CA600AD52B6 /* MainTabBarController.h */,
+				B7CB126A1ECD6CA600AD52B6 /* MainTabBarController.m */,
+				B7CB126B1ECD6CA600AD52B6 /* TRZXNavigationController.h */,
+				B7CB126C1ECD6CA600AD52B6 /* TRZXNavigationController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D830A65382C64FED6D22A87E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8FC880CE919E8C418852AFB /* Pods-YoungMonk.debug.xcconfig */,
+				1C1AA2092901991D9D01A29E /* Pods-YoungMonk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +563,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7CB12571ECD6C1F00AD52B6 /* Build configuration list for PBXNativeTarget "YoungMonk" */;
 			buildPhases = (
+				1CBF2D5204FE91F712FD5E70 /* [CP] Check Pods Manifest.lock */,
 				B7CB12261ECD6C1F00AD52B6 /* Sources */,
 				B7CB12271ECD6C1F00AD52B6 /* Frameworks */,
 				B7CB12281ECD6C1F00AD52B6 /* Resources */,
+				3B39E0CEF8EF2BD198F33548 /* [CP] Embed Pods Frameworks */,
+				5A09897E184AEE9880D5614A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,7 +622,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "张江威";
+				ORGANIZATIONNAME = YoungMonk;
 				TargetAttributes = {
 					B7CB12291ECD6C1F00AD52B6 = {
 						CreatedOnToolsVersion = 8.2;
@@ -246,9 +665,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70A96BA1EDAC08B001AD0DB /* bianjiG.png in Resources */,
+				B70A96C01EDAC08B001AD0DB /* weixin.png in Resources */,
+				B70A96D11EDAC08B001AD0DB /* TRZXCertificationTopCell.xib in Resources */,
+				B70A96BE1EDAC08B001AD0DB /* RZ_001.png in Resources */,
+				B70A96B31EDAC08B001AD0DB /* TRZXSetPasswordViewController.xib in Resources */,
+				B70A96CD1EDAC08B001AD0DB /* TRZXCertificationImageCell.xib in Resources */,
+				B70A96C71EDAC08B001AD0DB /* TRZXCerticationChooseCell.xib in Resources */,
+				B70A96DB1EDAC08B001AD0DB /* TRZXShareRZTableViewCell.xib in Resources */,
+				B70A96C11EDAC08B001AD0DB /* 图1.png in Resources */,
+				B70A96AF1EDAC08B001AD0DB /* TRZXRegisteredViewController.xib in Resources */,
+				B70A96C31EDAC08B001AD0DB /* 见过.png in Resources */,
+				B70A96D71EDAC08B001AD0DB /* TRZXPushLabelCell.xib in Resources */,
+				B70A96BB1EDAC08B001AD0DB /* fail-icon@3x.png in Resources */,
+				B70A96CB1EDAC08B001AD0DB /* TRZXCertificationHomeCell.xib in Resources */,
+				B70A96B91EDAC08B001AD0DB /* AlbumAddBtn@2x.png in Resources */,
+				B70A96BC1EDAC08B001AD0DB /* login_001.png in Resources */,
 				B7CB123D1ECD6C1F00AD52B6 /* LaunchScreen.storyboard in Resources */,
 				B7CB123A1ECD6C1F00AD52B6 /* Assets.xcassets in Resources */,
-				B7CB12381ECD6C1F00AD52B6 /* Main.storyboard in Resources */,
+				B70A96AB1EDAC08B001AD0DB /* TRZXFirstLoginViewController.xib in Resources */,
+				B70A96D51EDAC08B001AD0DB /* TRZXCityTopView.xib in Resources */,
+				B70A96B11EDAC08B001AD0DB /* TRZXRetrievePasswordViewController.xib in Resources */,
+				B70A96DD1EDAC0E4001AD0DB /* Main.storyboard in Resources */,
+				B70A96C21EDAC08B001AD0DB /* 延展@2x.png in Resources */,
+				B70A96C91EDAC08B001AD0DB /* TRZXCertificationHeadImageCell.xib in Resources */,
+				B70A96D91EDAC08B001AD0DB /* TRZXRZBasicInformationCell.xib in Resources */,
+				B70A96BF1EDAC08B001AD0DB /* tab3@2x.png in Resources */,
+				B70A96AC1EDAC08B001AD0DB /* TRZXLoginsViewController.xib in Resources */,
+				B70A96D31EDAC08B001AD0DB /* TRZXCertTitleCell.xib in Resources */,
+				B70A96BD1EDAC08B001AD0DB /* qita.png in Resources */,
+				B70A96CF1EDAC08B001AD0DB /* TRZXCertificationInformationCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +714,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CBF2D5204FE91F712FD5E70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B39E0CEF8EF2BD198F33548 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoungMonk/Pods-YoungMonk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A09897E184AEE9880D5614A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoungMonk/Pods-YoungMonk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7CB12261ECD6C1F00AD52B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70A96A41EDAC08B001AD0DB /* TRZXCertificationViewController.m in Sources */,
+				B70A96AE1EDAC08B001AD0DB /* TRZXRegisteredViewController.m in Sources */,
+				B70A96DA1EDAC08B001AD0DB /* TRZXShareRZTableViewCell.m in Sources */,
 				B7CB12351ECD6C1F00AD52B6 /* ViewController.m in Sources */,
 				B7CB12321ECD6C1F00AD52B6 /* AppDelegate.m in Sources */,
+				B70A96E71EDAC875001AD0DB /* GetUUID.m in Sources */,
+				B70A96D01EDAC08B001AD0DB /* TRZXCertificationTopCell.m in Sources */,
+				B70A96A51EDAC08B001AD0DB /* TRZXCityViewController.m in Sources */,
+				B70A96C41EDAC08B001AD0DB /* TRZXNetwork.m in Sources */,
+				B7CB126F1ECD6CA600AD52B6 /* MainTabBar2ViewController.m in Sources */,
+				B70A96ED1EDACBA5001AD0DB /* UIViewController+APP.m in Sources */,
+				B70A96C51EDAC08B001AD0DB /* TRZXNetworkCache.m in Sources */,
+				B70A96D41EDAC08B001AD0DB /* TRZXCityTopView.m in Sources */,
+				B70A96B21EDAC08B001AD0DB /* TRZXSetPasswordViewController.m in Sources */,
+				B70A96D61EDAC08B001AD0DB /* TRZXPushLabelCell.m in Sources */,
+				B7CB12721ECD6CA600AD52B6 /* TRZXNavigationController.m in Sources */,
+				B70A96A81EDAC08B001AD0DB /* TRZXRZBasicInformationVC.m in Sources */,
+				B70A96A61EDAC08B001AD0DB /* TRZXExpertsCertViewController.m in Sources */,
+				B70A96B51EDAC08B001AD0DB /* TRZXLoginLogic.m in Sources */,
+				B70A96AD1EDAC08B001AD0DB /* TRZXLoginViewController.m in Sources */,
+				B7CB126D1ECD6CA600AD52B6 /* MainTabBar0ViewController.m in Sources */,
+				B70A96EA1EDAC875001AD0DB /* User.m in Sources */,
+				B70A96B41EDAC08B001AD0DB /* TRZXCityModel.m in Sources */,
+				B70A96D81EDAC08B001AD0DB /* TRZXRZBasicInformationCell.m in Sources */,
+				B70A96CE1EDAC08B001AD0DB /* TRZXCertificationInformationCell.m in Sources */,
+				B70A96E91EDAC875001AD0DB /* Login.m in Sources */,
+				B70A96B81EDAC08B001AD0DB /* TRZXRZIformationMode.m in Sources */,
 				B7CB122F1ECD6C1F00AD52B6 /* main.m in Sources */,
+				B70A96A31EDAC08B001AD0DB /* TRZXCerticationImageViewController.m in Sources */,
+				B70A96D21EDAC08B001AD0DB /* TRZXCertTitleCell.m in Sources */,
+				B70A96CA1EDAC08B001AD0DB /* TRZXCertificationHomeCell.m in Sources */,
+				B70A96B01EDAC08B001AD0DB /* TRZXRetrievePasswordViewController.m in Sources */,
+				B7CB12701ECD6CA600AD52B6 /* MainTabBar3ViewController.m in Sources */,
+				B70A96A11EDAC08B001AD0DB /* CTMediator+TRZXLogin.m in Sources */,
+				B70A96A91EDAC08B001AD0DB /* TRZXRZPositionViewController.m in Sources */,
+				B7CB12711ECD6CA600AD52B6 /* MainTabBarController.m in Sources */,
+				B70A96C81EDAC08B001AD0DB /* TRZXCertificationHeadImageCell.m in Sources */,
+				B7CB126E1ECD6CA600AD52B6 /* MainTabBar1ViewController.m in Sources */,
+				B70A96C61EDAC08B001AD0DB /* TRZXCerticationChooseCell.m in Sources */,
+				B70A96CC1EDAC08B001AD0DB /* TRZXCertificationImageCell.m in Sources */,
+				B70A96E81EDAC875001AD0DB /* KeyChainStore.m in Sources */,
+				B70A96B71EDAC08B001AD0DB /* TRZXPositionModel.m in Sources */,
+				B70A96A71EDAC08B001AD0DB /* TRZXExpertsSecondViewController.m in Sources */,
+				B70A96A21EDAC08B001AD0DB /* Target_TRZXLogin.m in Sources */,
+				B70A96B61EDAC08B001AD0DB /* TRZXLoginUserDefaults.m in Sources */,
+				B70A96AA1EDAC08B001AD0DB /* TRZXFirstLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +848,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B7CB12361ECD6C1F00AD52B6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7CB12371ECD6C1F00AD52B6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B7CB123B1ECD6C1F00AD52B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,6 +951,7 @@
 		};
 		B7CB12581ECD6C1F00AD52B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8FC880CE919E8C418852AFB /* Pods-YoungMonk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YoungMonk/Info.plist;
@@ -433,6 +963,7 @@
 		};
 		B7CB12591ECD6C1F00AD52B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1AA2092901991D9D01A29E /* Pods-YoungMonk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YoungMonk/Info.plist;
@@ -507,6 +1038,7 @@
 				B7CB12591ECD6C1F00AD52B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7CB125A1ECD6C1F00AD52B6 /* Build configuration list for PBXNativeTarget "YoungMonkTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +1047,7 @@
 				B7CB125C1ECD6C1F00AD52B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7CB125D1ECD6C1F00AD52B6 /* Build configuration list for PBXNativeTarget "YoungMonkUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +1056,7 @@
 				B7CB125F1ECD6C1F00AD52B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

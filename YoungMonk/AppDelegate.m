@@ -7,8 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "TRZXNetwork.h"
+#import "TRZXKit.h"
+#import <objc/runtime.h>
+#import "Login.h"
+#import "User.h"
+
+#import "TRZXFirstLoginViewController.h"
+#import "TRZXLoginUserDefaults.h"
+#import "MainTabBarController.h"
+
 
 @interface AppDelegate ()
+@property (nonatomic, strong) Login *login;
+
 
 @end
 
@@ -16,10 +28,61 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [TRZXNetwork configWithBaseURL:@"http://api.kipo.mmwipo.com/"];
+    [TRZXNetwork configWithNewBaseURL:@"http://api.kipo.mmwipo.com/"];
+    [self enterMainUI];
+    
     return YES;
 }
-
+- (void)enterMainUI{
+    if ([TRZXLoginUserDefaults token]) {
+        
+//        // 获取当前User
+//        User *user = [Login curLoginUser];
+//        // 配置请求头
+//        NSMutableDictionary *headers = [[NSMutableDictionary alloc]init];
+//        [headers setValue:user.token forKey:@"token"];
+//        [headers setValue:user.userId forKey:@"userId"];
+//        [TRZXNetwork configHttpHeaders:headers];
+//        
+//        
+//        NSLog(@">>>>>>>>>>>>mobel = %@",user.mobile);
+        
+        
+        // 测试退出登录
+        // [Login doLogout];
+        MainTabBarController * firstVC = [[MainTabBarController alloc] init];
+        self.window.rootViewController = firstVC;
+        
+    }else{
+        //        [self.login setType:@"1" mobile:@"13582014204" psd:@"qqqqqq"];
+        //        [self.login.requestSignal_login subscribeNext:^(id x) {
+        //
+        //            User *user = [Login curLoginUser];
+        //
+        //            // 配置请求头
+        //            NSMutableDictionary *headers = [[NSMutableDictionary alloc]init];
+        //            [headers setValue:user.token forKey:@"token"];
+        //            [headers setValue:user.userId forKey:@"userId"];
+        //            [TRZXNetwork configHttpHeaders:headers];
+        //
+        //            // 请求完成后，更新UI
+        //
+        //        } error:^(NSError *error) {
+        //            // 如果请求失败，则根据error做出相应提示
+        //
+        //        }];
+        TRZXFirstLoginViewController *login= [[TRZXFirstLoginViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:login];
+        self.window.rootViewController = nav;
+    }
+}
+- (Login *)login{
+    if (!_login) {
+        _login = [Login new];
+    }
+    return _login;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

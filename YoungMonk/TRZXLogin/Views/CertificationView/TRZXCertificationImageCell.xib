@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="KGk-i7-Jjw" customClass="TRZXCertificationImageCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbumAddBtn.png" translatesAutoresizingMaskIntoConstraints="NO" id="idp-AP-kCu">
+                        <rect key="frame" x="20" y="20" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="2UR-Wu-mQp"/>
+                            <constraint firstAttribute="width" constant="80" id="mo2-Mp-WUu"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftF-RS-eqs">
+                        <rect key="frame" x="10" y="114" width="100" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Fc0-Iw-Cxw"/>
+                            <constraint firstAttribute="width" constant="100" id="eae-7X-Sfn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbumAddBtn.png" translatesAutoresizingMaskIntoConstraints="NO" id="mEy-9J-Ckq">
+                        <rect key="frame" x="120" y="20" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="BHy-p4-xVh"/>
+                            <constraint firstAttribute="height" constant="80" id="epS-ls-5nV"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbumAddBtn.png" translatesAutoresizingMaskIntoConstraints="NO" id="f1c-gS-92Z">
+                        <rect key="frame" x="220" y="20" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="1oH-un-S5U"/>
+                            <constraint firstAttribute="height" constant="80" id="hVQ-lr-sQF"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="php-vN-ex4">
+                        <rect key="frame" x="110" y="114" width="100" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="VfV-IV-nqs"/>
+                            <constraint firstAttribute="width" constant="100" id="jdv-QA-gqa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVR-Ug-pT4">
+                        <rect key="frame" x="210" y="114" width="100" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="4x8-B7-Nx2"/>
+                            <constraint firstAttribute="width" constant="100" id="QQC-CS-atg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="f1c-gS-92Z" firstAttribute="leading" secondItem="mEy-9J-Ckq" secondAttribute="trailing" constant="20" id="24h-vh-GbP"/>
+                    <constraint firstItem="f1c-gS-92Z" firstAttribute="centerY" secondItem="idp-AP-kCu" secondAttribute="centerY" id="4DU-RF-4qS"/>
+                    <constraint firstItem="vVR-Ug-pT4" firstAttribute="centerY" secondItem="ftF-RS-eqs" secondAttribute="centerY" id="Coz-23-U20"/>
+                    <constraint firstItem="idp-AP-kCu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Cri-3k-XMJ"/>
+                    <constraint firstItem="ftF-RS-eqs" firstAttribute="centerX" secondItem="idp-AP-kCu" secondAttribute="centerX" id="Dmq-rt-hNk"/>
+                    <constraint firstItem="mEy-9J-Ckq" firstAttribute="leading" secondItem="idp-AP-kCu" secondAttribute="trailing" constant="20" id="TGD-X7-NpR"/>
+                    <constraint firstItem="idp-AP-kCu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="Tu1-Gf-nZB"/>
+                    <constraint firstItem="mEy-9J-Ckq" firstAttribute="centerY" secondItem="idp-AP-kCu" secondAttribute="centerY" id="UcN-0e-mTf"/>
+                    <constraint firstItem="php-vN-ex4" firstAttribute="centerX" secondItem="mEy-9J-Ckq" secondAttribute="centerX" id="X1P-X5-0zr"/>
+                    <constraint firstItem="vVR-Ug-pT4" firstAttribute="centerX" secondItem="f1c-gS-92Z" secondAttribute="centerX" id="eN2-90-UXK"/>
+                    <constraint firstItem="ftF-RS-eqs" firstAttribute="top" secondItem="idp-AP-kCu" secondAttribute="bottom" constant="14" id="pGo-R4-182"/>
+                    <constraint firstItem="php-vN-ex4" firstAttribute="centerY" secondItem="ftF-RS-eqs" secondAttribute="centerY" id="s8Q-Cw-7Op"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="firstImage" destination="idp-AP-kCu" id="ZRN-7s-nDl"/>
+                <outlet property="firstLabel" destination="ftF-RS-eqs" id="J45-O7-XWA"/>
+                <outlet property="secondImage" destination="mEy-9J-Ckq" id="lsp-bt-dOE"/>
+                <outlet property="secondLabel" destination="php-vN-ex4" id="FGW-KZ-p9T"/>
+                <outlet property="thirdImage" destination="f1c-gS-92Z" id="k2M-cg-bpZ"/>
+                <outlet property="thirdLabel" destination="vVR-Ug-pT4" id="Lmq-jt-f0w"/>
+            </connections>
+            <point key="canvasLocation" x="89" y="44"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AlbumAddBtn.png" width="65" height="65"/>
+    </resources>
+</document>

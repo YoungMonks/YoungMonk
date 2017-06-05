@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TRZXRZBasicInformationCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oJv-0N-9bR">
+                        <rect key="frame" x="8" y="10" width="262" height="39"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                        <connections>
+                            <outlet property="delegate" destination="-1" id="34P-WH-O2n"/>
+                        </connections>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvQ-Vi-M6R">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="10"/>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="3DI-FC-59f"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ix-Pj-QwV">
+                        <rect key="frame" x="270" y="10" width="42" height="39"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="0ix-Pj-QwV" firstAttribute="top" secondItem="pvQ-Vi-M6R" secondAttribute="bottom" id="892-ej-OYq"/>
+                    <constraint firstItem="oJv-0N-9bR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="9Gh-2r-odj"/>
+                    <constraint firstAttribute="bottom" secondItem="0ix-Pj-QwV" secondAttribute="bottom" id="EmA-w3-jf9"/>
+                    <constraint firstAttribute="trailing" secondItem="pvQ-Vi-M6R" secondAttribute="trailing" id="Fgt-eW-Ken"/>
+                    <constraint firstAttribute="trailing" secondItem="oJv-0N-9bR" secondAttribute="trailing" constant="50" id="QaG-qR-vmO"/>
+                    <constraint firstAttribute="trailing" secondItem="0ix-Pj-QwV" secondAttribute="trailing" constant="8" id="Sru-9w-ryL"/>
+                    <constraint firstItem="pvQ-Vi-M6R" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dOF-bt-0J7"/>
+                    <constraint firstItem="0ix-Pj-QwV" firstAttribute="leading" secondItem="oJv-0N-9bR" secondAttribute="trailing" id="ma4-Ya-yIH"/>
+                    <constraint firstItem="pvQ-Vi-M6R" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="qQa-8L-Pp5"/>
+                    <constraint firstItem="oJv-0N-9bR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ueX-Mj-HeW"/>
+                    <constraint firstAttribute="bottom" secondItem="oJv-0N-9bR" secondAttribute="bottom" id="v13-8J-TfG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="informationFeild" destination="oJv-0N-9bR" id="Cs4-tw-1Xf"/>
+                <outlet property="numberLab" destination="0ix-Pj-QwV" id="yuq-ey-RA7"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
